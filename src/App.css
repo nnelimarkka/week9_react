@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+#list-input {
+  max-width: 600px;
+}
+
+label {
+  display: inline-block;
+}
+
+.clicked {
+  text-decoration: line-through;
 }
 
 .App-logo {
