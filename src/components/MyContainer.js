@@ -13,7 +13,7 @@ const MyContainer = () => {
         itemList.forEach((listItem, index) => {
             if(listItem.id === id) {
                 let item = listItem;
-                item.clicked = true;
+                item.clicked = item.clicked ? false : true;
                 itemList[index] = item;
                 setItems(itemList);
                 console.log(items);
